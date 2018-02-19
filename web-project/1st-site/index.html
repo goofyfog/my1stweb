@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>My 1st test web page</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="shortcut icon" type="image/x-ico" href="frank.ico">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<!--<script src="../../jquery-3.3.1.js"></script>-->
+
+</head>
+
+<body>
+	<h1 id="demo">This is my <strong>1st</strong> web page</h1>
+	<p><strong><em>Happy</em> a <span style="font-size: 32px; margin: 21px 0;">prosperous</span> New year!</strong></p>
+	<p id = "deco">dghdjkfgdkjgfdghkjfdgdfghdgudfgfdjkghjsbdfuierhihfdfhdkfhfdjghfdgdfiugthjhgdkfghiotoihgifhgiufjsfhuehgkjfdeiurghishfiugfhd</p>
+	<form method="get" action="http://www.google.com/search">
+		<div style="border:1px solid black; padding: 4px; width: 20em;">
+			<table border="0" align="center" cellpadding="0">
+				<tr>
+					<td>
+						<input type="text" name="q" size="25" maxlength="255" value="" />
+						<input type="submit" value="Google Search" />
+					</td>
+				</tr>
+				<tr>
+					<td align="center" style="font-size: 75%">
+						<input type="radio" name="sitesearch" value="" />The Web
+						<input type="radio" name="sisesearch" value="mysite.com" checked /> only My Site<br />
+						
+						
+					</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	
+	<ol>
+		<li>1st</li>
+		<li>2nd</li>
+	3rd	4th
+	</ol>
+	<ul>
+		<li>Monday</li>
+		<li>Tuesday</li>
+	</ul>
+
+	 <img src="images/DSC_4301.jpg" alt="My 1st images" >
+	 <button>Change user</button>
+		<script  src="scripts/main.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#deco").click(function(){
+					$(this).hide();
+				})
+			})
+		</script>
+</body>
+</html>
